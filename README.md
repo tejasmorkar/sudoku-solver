@@ -30,6 +30,8 @@ Once the requirements are checked, you can easily download this project and use 
 * **STEP 1**
     Download this repository as a zip file onto your machine and extract the sudoku-solver-master folder from it.
 
+    ![Download and Extract Zip Folder](./assets/DownloadAndExatractZip.gif)
+
 * **STEP 2**
   Run the [solve.py](./solve.py) file using python to see the solution
   > NOTE:
