@@ -1,6 +1,9 @@
 import os
+CLEAR = 'cls' # For linux or mac, replace 'cls' with 'clear'
 
-puzzle = '070000043040009610800634900094052000358460020000800530080070091902100005007040802'
+# you can replace the digits from puzzle0 and solution0 to solve different puzzles. Check the puzzles.py and solutions.py files to understand better
+from puzzles import puzzle0 as puzzle
+from solutions import solution0 as solution # to verify the solution at the end
 
 sudoku = []
 row = []
@@ -22,6 +25,9 @@ def solve(board):
     for i in range(1,10):
         if is_valid(board, i, (row, col)):
             board[row][col] = i
+            os.system(CLEAR)        #Comment this line if you don't want to see the solution to increase the speed
+            print("\nSolution: \n") #Comment this line if you don't want to see the solution to increase the speed
+            print_sudoku(sudoku)    #Comment this line if you don't want to see the solution to increase the speed
 
             if solve(board):
                 return True
@@ -80,21 +86,23 @@ def is_empty(board):
 
     return None
 
-os.system('cls') # For linux or mac, replace 'cls' with 'clear'
+os.system(CLEAR)
 print("\nProblem: \n")
 print_sudoku(sudoku) # Unsolved
 
-solve(sudoku)
 input("\nPress Enter to See the Solution...")
+solve(sudoku)
 
-os.system('cls') # For linux or mac, replace 'cls' with 'clear'
-print("\nSolution: \n")
-print_sudoku(sudoku) # Solved
 
-solution = ''
+mySolution = ''
 for i in range(9):
     for j in range(9):
-        solution = solution+str(sudoku[i][j])
+        mySolution = mySolution+str(sudoku[i][j])
 
-if solution == '679518243543729618821634957794352186358461729216897534485276391962183475137945862':
-    print("\nThe solution is verified")
+if mySolution == solution:
+    os.system(CLEAR)
+    print("\nThe solution is verified\n")
+    print_sudoku(sudoku)
+else:
+    print("\nExpected Solution: \t", solution)
+    print("Your Solution: \t\t", mySolution)
