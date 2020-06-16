@@ -53,8 +53,8 @@ Once the requirements are checked, you can easily download this project and use 
 This is a basic academic project and I am planning on exploring other ideas to make it more interesting and intuitive. Some of the things I'm working on currently are listed below.
 
 1. Trying different algorithms than the Backtracking such as Stochastic search, Constraint programming, Exact cover, and others.
-2. Exploring the use Machine Learning algorithms to solve Sudoku Puzzles using a [dataset available on Kaggle](https://www.kaggle.com/rohanrao/sudoku) which provides 9 million Sudoku Puzzle-Solution pairs.
-3. Using Convolutional Neural Networks and Image processing to detect Sudoku Puzzles from the hard copies and displaying the found solution onto it using the AR (Augmented Reality) Technology.
+2. Exploring the use of Machine Learning algorithms to solve Sudoku Puzzles using a [dataset available on Kaggle](https://www.kaggle.com/rohanrao/sudoku) which provides 9 million Sudoku Puzzle-Solution pairs.
+3. Using Convolutional Neural Networks and Image processing to detect Sudoku Puzzles from the hard copies and then displaying the found solutions onto it using the AR (Augmented Reality) Technology.
 
 ## Send Me Queries or Feedback
 
