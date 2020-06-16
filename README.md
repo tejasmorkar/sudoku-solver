@@ -28,7 +28,7 @@ To download and use this code, the minimum requirements are:
 Once the requirements are checked, you can easily download this project and use it on your machine in few simple steps.
 
 * **STEP 1**
-    Download this repository as a zip file onto your machine and extract the sudoku-solver folder from it.
+    Download this repository as a zip file onto your machine and extract the sudoku-solver-master folder from it.
 
 * **STEP 2**
   Run the [solve.py](./solve.py) file using python to see the solution
