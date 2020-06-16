@@ -1,6 +1,6 @@
 # Sudoku Solver
 
-![Sudoko Solver using Backtracking Algorithm](../sudoku-solver/assets/SudokuSolverUsingBacktrack.gif)
+![Sudoko Solver using Backtracking Algorithm](./assets/SudokuSolverUsingBacktrack.gif)
 
 Sudoko Solver using **`Backtracking Algorithm`**
 
