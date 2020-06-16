@@ -39,11 +39,11 @@ Once the requirements are checked, you can easily download this project and use 
 
   ![Run solve.py File Using Python](./assets/RunSolvePythonFile.gif)
 
-  <br>
-
-  > NOTE:
-  1 - If you are using Linux or Mac you will need to change one line of code. Instructions for which are commented in the same file on line #3.
-  2 - The algorithm takes only ~1 second to compute most of the Sudoku Puzzles. It takes more time to show the output on every iteration. So, if you want to skip the visualization part to speed it up, feel free to comment out the lines #28 to #30.
+> NOTE:
+>  
+> 1 - If you are using Linux or Mac you will need to change one line of code. Instructions for which are commented in the same file on line #3.
+>  
+> 2 - The algorithm takes only ~1 second to compute most of the Sudoku Puzzles. It takes more time to show the output on every iteration. So, if you want to skip the visualization part to speed it up, feel free to comment out the lines #28 to #30.
 
 * **STEP 3** <br>
   You can change last digits of the `puzzle0` and `solution0` on lines #5 and #6, respectively, to check the algorithm for different puzzles. There are 5 demo puzzles already given in the [puzzles.py](./puzzles.py) file and their respective solutions are stored in the [solutions.py](./solutions.py) file. Feel free to add your own puzzles to explore more.
