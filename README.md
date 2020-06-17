@@ -26,7 +26,7 @@ To download and use this code, the minimum requirements are:
 Once the requirements are checked, you can easily download this project and use it on your machine in few simple steps.
 
 * **STEP 1** <br>
-    Download this repository as a zip file onto your machine and extract the sudoku-solver-master folder from it.
+    Download this repository as a zip file onto your machine and extract all the files from it.
 
     ![Download and Extract Zip Folder](./assets/DownloadAndExatractZip.gif)
 
